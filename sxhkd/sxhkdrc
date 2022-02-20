@@ -163,7 +163,7 @@ XF86AudioMute
 shift + super + f
 	firefox
 
-shift + super + c
+shift + super + g
 	google-chrome
 
 shift + super + s
@@ -175,7 +175,7 @@ shift + super + h
 shift + super + o
 	obsidian
 
-shift + super + c
+shift + super + v
 	code
 
 shift + super + n
