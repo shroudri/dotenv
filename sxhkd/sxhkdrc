@@ -180,3 +180,9 @@ shift + super + v
 
 shift + super + n
 	nautilus
+
+super + shift + b
+	export _JAVA_AWT_WM_NONREPARENTING=1; burpsuite
+
+super + shift + c
+	export _JAVA_AWT_WM_NONREPARENTING=1; crossftp
