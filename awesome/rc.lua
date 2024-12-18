@@ -601,6 +601,8 @@ clientkeys = mytable.join(
         {description = "(un)maximize horizontally", group = "client"})
 )
 
+
+
 -- Bind all key numbers to tags.
 -- Be careful: we use keycodes to make it work on any keyboard layout.
 -- This should map on the top row of your keyboard, usually 1 to 9.
@@ -822,8 +824,8 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 
--- Launch programs during reload
-awful.spawn("/usr/local/bin/xrandr_configurator")
+-- Configure screens. This should be done first
+awful.util.spawn_with_shell("bash ~/.config/awesome/autorun.sh")
 
 -- Launch programs during startup
 awful.spawn.once("slack")
