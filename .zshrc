@@ -126,6 +126,7 @@ alias stele="ahorita REDACTED|grep telegraf"
 alias sprom="ahorita REDACTED|grep prometheus"
 alias svpn="ahorita REDACTED|grep vpn"
 alias sgepp="ahorita REDACTED|grep geppetto"
+alias awsvpnclient="'/opt/awsvpnclient/AWS VPN Client' &"
 
 export AWS_PAGER=""
 
